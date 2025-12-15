@@ -1,4 +1,4 @@
-# Los "Otros Peronismos": Por Qué No Florecieron Como el Argentino
+# Los "Otros Peronismos"
 
 ## Introducción: El Fenómeno de los Nacionalismos Populares Latinoamericanos
 
