@@ -43,47 +43,190 @@ timeline
               : "Filosofía Peronista" (1954)
 ```
 
-## 2. Mapa Mental de Influencias Filosóficas: Mindmap
+## 2. Mapa Mental de Influencias Filosóficas: Mindmap Detallado
 
 ```mermaid
 mindmap
-  root((Síntesis Filosófica Peronista))
+  root((Síntesis Filosófica Peronista<br/>La Comunidad Organizada))
     
-    Tradición Clásica
+    Tradición Clásica Griega
       Presocráticos
-        Cleóbulo: "Todo en su medida"
-        Tales: Equilibrio emocional
-      Filosofía Griega
-        Platón: Ideas y realidad
-        Aristóteles: Término medio
-      Escolástica
-        Santo Tomás: Síntesis razón-fe
-        Tradición hispánica
+        Cleóbulo el Líndico
+          "Todo en su medida y armoniosamente"
+          Equilibrio como principio rector
+          Moderación en el poder
+        Tales de Mileto
+          "No hay éxito que me entusiasme mucho"
+          "Ni fracaso que me aplaste demasiado"
+          Serenidad ante circunstancias
+        Los Siete Sabios
+          Herencia arcaica polis
+          Pensamiento comunitario
+          Contexto mestizaje americano
+      
+      Filosofía Clásica
+        Platón
+          República: Estado justo
+          Leyes: Orden social
+          Dialéctica: Síntesis opuestos
+          Ideas y realidad concreta
+        Aristóteles
+          Política: Término medio
+          Ética: Virtud práctica
+          Maestro de Alejandro
+          "Mi oficio tiene que ver con filosofía"
+        Diógenes Laercio
+          Vidas de filósofos
+          Tradición sapiencial
+          Ejemplos de conducta
+      
+      Escolástica Medieval
+        Santo Tomás de Aquino
+          Suma Teológica
+          Síntesis razón-fe
+          Bien común
+          Justicia distributiva
+        San Agustín
+          Ciudad de Dios
+          Orden temporal-espiritual
+          Autoridad y libertad
+        Tradición Hispánica
+          Francisco de Vitoria
+          Francisco Suárez
+          Teología-política medieval
+          "Teología de la revolución"
     
     Modernidad Europea
       Filosofía Alemana
-        Kant: Síntesis crítica
-        Fichte: Estado mercantil cerrado
+        Immanuel Kant
+          Crítica razón práctica
+          Síntesis a priori
+          Imperativo categórico
+          Autonomía moral
+        J.G. Fichte
+          Estado mercantil cerrado
+          Nacionalismo alemán
+          Autarquía económica
+          Idealismo alemán
+        Filosofía Romántica
+          Cultura Volkisch
+          Das Volk (el pueblo)
+          Anti-racionalismo
+          Populismo cultural
+      
       Pensamiento Francés
-        Maritain: Humanismo integral
-        Bergson: Intuición vital
-      Sociología
-        Le Bon: Psicología masas
-        Duprat: Solidaridad social
+        Jacques Maritain
+          Humanismo integral
+          "Tercera vía" original
+          Masas "última reserva historia"
+          Persona vs individuo
+          Nueva cristiandad
+          Filosofía persona humana
+        Henri Bergson
+          Intuición vital
+          Élan vital
+          Duración vs tiempo
+          Filosofía de la vida
+        Gustave Le Bon
+          Psicología de las masas
+          "Era de las multitudes"
+          Liderazgo fuerte necesario
+          Irracionalidad colectiva
+      
+      Sociología Aplicada
+        Lester F. Ward
+          Fundador sociología norteamericana
+          "Producción individual sencilla"
+          "Distribución colectiva compleja"
+          Ingenio colectivo fuerzas sociales
+        G.L. Duprat
+          "La solidaridad social" (1913)
+          Antecesor Adolfo Posada
+          Precursor José Figuerola
+          Cooperación social
     
     Síntesis Argentina
-      Tradición Nacional
+      Tradición Nacional Católica
         José Manuel Estrada
+          Reconstrucción unidad
+          Masas populares-clase pensante
+          Democracia funcional
+          Representación social directa
+        Monseñor Miguel de Andrea
+          "El Obispo Rojo"
+          "Catolicismo social y aplicación"
+          "Justicia Social" (1943)
+          Corporativismo no absoluto
+          Democracia económica-social
         Carlos Ibarguren
-        Leopoldo Lugones
-      Generación Militar
-        Mosconi: Soberanía energética
-        Sarobe: Mentor personal
-        Savio: Nueva soberanía
-      Doctrina Social
-        Miguel de Andrea
+          "La inquietud de esta hora"
+          "Sistema económico revolución"
+          Democracia funcional superadora
+          Estado expresión valores sociales
+      
+      Generación Militar Intelectual
+        General Enrique Mosconi
+          YPF: soberanía energética
+          Alianza Continental energética
+          "Renunciar a ambas" (Royal Dutch/Standard)
+          "Nuestras propias fuerzas"
+        General José María Sarobe
+          Mentor personal discipular
+          "Memorias revolución 1930"
+          "Iberoamérica mensaje juventud"
+          Liberalismo militar ilustrado
+          Unidad latinoamericana
+        General Manuel Savio
+          Siderurgia nacional
+          "Nuevas formas soberanía"
+          "Desprecio técnica puede ser nefasto"
+          Independencia industrial
+      
+      Doctrina Social Cristiana
         Arturo Sampay
+          "Crisis derecho liberal burgués" (1942)
+          Constitución 1949
+          Función social propiedad
+          Erudito filosófico
+          Intelectual más relevante justicialismo
         Hernán Benítez
+          Confesor Evita
+          "Carecia sensibilidad religiosa"
+          "Buen cristiano católico practicante"
+          Influencia sociológica-ética
+        Virgilio Filippo
+          Relación fluida Perón-Eva
+          Influencias sacerdotales
+          Orientación social cristiana
+      
+      Nacionalismo Criollo
+        Leopoldo Lugones
+          "Poeta Nacional"
+          "La hora de la espada"
+          "La patria fuerte"
+          Reivindicación Martín Fierro
+          Criollismo político
+        Raúl Scalabrini Ortiz
+          "El hombre que está solo y espera"
+          Antiimperialismo FORJA
+          Nacionalización servicios públicos
+          Ferrocarriles estatales
+        Manuel Ugarte
+          "Socialismo nacional"
+          Valores patrióticos
+          Embajador México-Cuba
+          "Maldito" política argentina
+    
+    Síntesis Doctrinaria Final
+      La Comunidad Organizada (1949)
+        Gobierno concentrado
+        Estado descentralizado
+        Organizaciones libres pueblo
+        Síntesis individual-social
+        Ni capitalismo ni comunismo
+        Justicia social efectiva
+        Organización vence tiempo
+        Conducción masas organizadas
 ```
 
 ## 3. Diagrama de Flujo del Proceso de Síntesis: Flowchart
