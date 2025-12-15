@@ -1589,7 +1589,6 @@ block-beta
     style C fill:#2c3e50,color:#ecf0f1
     style D fill:#2c3e50,color:#ecf0f1
     style E fill:#2c3e50,color:#ecf0f1
-    end
     
     block:MEDIDA:5
         Z["Μέτρον ἄριστον"] AA["Cleóbulo el Líndico<br/>Siglo VI a.C."] BB["Lecturas directas Perón<br/>Fermín Chávez documenta"] CC["Ni más ni menos<br/>de lo que es"] DD["VERDAD 7"]
