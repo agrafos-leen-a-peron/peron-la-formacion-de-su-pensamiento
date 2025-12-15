@@ -296,30 +296,48 @@ flowchart TD
 
 ```mermaid
 gantt
-    title Desarrollo Temporal de Ideas Peronistas
-    dateFormat X
-    axisFormat %s
+    title Desarrollo Temporal de Ideas Peronistas (1895-1955)
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+    
+    section Formación Temprana
+    Crianza Pampeana           :1895-01-01, 1910-12-31
+    Colegio Militar            :1911-01-01, 1915-12-31
+    Primeras Lecturas          :1915-01-01, 1925-12-31
     
     section Formación Intelectual
-    Lecturas Clásicas          :1920, 1940
-    Influencia Militar         :1925, 1943
-    Doctrina Social Católica   :1930, 1950
+    Lecturas Clásicas          :1920-01-01, 1940-12-31
+    Influencia Sarobe          :1925-01-01, 1943-12-31
+    Doctrina Social Católica   :1930-01-01, 1950-12-31
+    Intelectuales Militares    :1925-01-01, 1943-12-31
     
-    section Síntesis Práctica
-    Secretaría Trabajo         :1943, 1946
-    Organización Sindical      :1943, 1955
-    Política Económica         :1944, 1955
+    section Maduración Doctrinaria
+    Estudios Europeos          :1939-01-01, 1941-12-31
+    Síntesis Filosófica        :1940-01-01, 1943-12-31
+    Contactos Latinoamericanos :1940-01-01, 1945-12-31
+    
+    section Laboratorio Social
+    Secretaría Trabajo         :1943-06-01, 1946-06-01
+    Organización Sindical      :1943-06-01, 1955-09-01
+    Figuerola Ordenador        :1943-06-01, 1946-12-31
+    17 de Octubre              :milestone, 1945-10-17, 0d
+    
+    section Gobierno Peronista
+    Presidencia                :1946-06-04, 1955-09-16
+    Política Económica         :1946-06-04, 1955-09-16
+    Redistribución Ingreso     :1947-01-01, 1955-09-16
     
     section Elaboración Doctrinaria
-    Derechos del Trabajador    :1947, 1947
-    La Comunidad Organizada    :1949, 1949
-    Constitución 1949          :1949, 1949
-    Filosofía Peronista        :1954, 1954
+    Derechos del Trabajador    :1947-02-24, 1947-02-24
+    La Comunidad Organizada    :1949-04-01, 1949-04-30
+    Constitución 1949          :1949-03-11, 1949-03-16
+    Filosofía Peronista        :1954-01-01, 1954-12-31
     
     section Conflictos y Crisis
-    Resistencia Empresarial    :1948, 1955
-    Presiones Internacionales  :1945, 1955
-    Ruptura con Iglesia        :1954, 1955
+    Resistencia Empresarial    :1948-01-01, 1955-09-16
+    Presiones Internacionales  :1945-01-01, 1955-09-16
+    Ruptura con Iglesia        :1954-11-01, 1955-09-16
+    Caída del Régimen          :milestone, 1955-09-16, 0d
 ```
 
 ## 5. Diagrama de Sectores: Composición de Influencias
