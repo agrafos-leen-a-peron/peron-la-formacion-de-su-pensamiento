@@ -799,22 +799,22 @@ graph LR
 ```mermaid
 sankey-beta
     
-    Filosofía Clásica,Síntesis Temprana,25
-    Doctrina Católica,Síntesis Temprana,30
-    Intelectuales Militares,Síntesis Temprana,20
-    Economía Alemana,Síntesis Temprana,15
-    Criollismo,Síntesis Temprana,10
+    "Filosofía Clásica","Síntesis Temprana",25
+    "Doctrina Católica","Síntesis Temprana",30
+    "Intelectuales Militares","Síntesis Temprana",20
+    "Economía Alemana","Síntesis Temprana",15
+    "Criollismo","Síntesis Temprana",10
     
-    Síntesis Temprana,Laboratorio Social,60
-    Nacionalismos Latinoamericanos,Laboratorio Social,25
-    Sociología Francesa,Laboratorio Social,15
+    "Síntesis Temprana","Laboratorio Social",60
+    "Nacionalismos Latinoamericanos","Laboratorio Social",25
+    "Sociología Francesa","Laboratorio Social",15
     
-    Laboratorio Social,Doctrina Peronista,70
-    Resistencias Externas,Doctrina Peronista,20
-    Adaptaciones Pragmáticas,Doctrina Peronista,10
+    "Laboratorio Social","Doctrina Peronista",70
+    "Resistencias Externas","Doctrina Peronista",20
+    "Adaptaciones Pragmáticas","Doctrina Peronista",10
     
-    Doctrina Peronista,Aplicación Gubernamental,80
-    Contradicciones Internas,Aplicación Gubernamental,20
+    "Doctrina Peronista","Aplicación Gubernamental",80
+    "Contradicciones Internas","Aplicación Gubernamental",20
 ```
 
 ## Conclusión: La Sofisticación de la Síntesis Peronista
@@ -1060,36 +1060,33 @@ block-beta
 ```mermaid
 sankey-beta
     
-    %% Fuentes de entrada
-    Clásicos Griegos,Síntesis Filosófica,15
-    Escolástica,Síntesis Filosófica,20
-    Filosofía Moderna,Síntesis Filosófica,10
+    "Clásicos Griegos","Síntesis Filosófica",15
+    "Escolástica","Síntesis Filosófica",20
+    "Filosofía Moderna","Síntesis Filosófica",10
     
-    Doctrina Social Católica,Síntesis Moral,25
-    Mística Española,Síntesis Moral,10
-    Teología Tomista,Síntesis Moral,15
+    "Doctrina Social Católica","Síntesis Moral",25
+    "Mística Española","Síntesis Moral",10
+    "Teología Tomista","Síntesis Moral",15
     
-    Historia Militar,Síntesis Estratégica,20
-    Geopolítica Alemana,Síntesis Estratégica,15
-    Táctica Moderna,Síntesis Estratégica,10
+    "Historia Militar","Síntesis Estratégica",20
+    "Geopolítica Alemana","Síntesis Estratégica",15
+    "Táctica Moderna","Síntesis Estratégica",10
     
-    Economía Alemana,Síntesis Económica,20
-    Sociología Francesa,Síntesis Económica,15
-    Cooperativismo,Síntesis Económica,10
+    "Economía Alemana","Síntesis Económica",20
+    "Sociología Francesa","Síntesis Económica",15
+    "Cooperativismo","Síntesis Económica",10
     
-    Nacionalismo Criollo,Síntesis Cultural,15
-    Literatura Gauchesca,Síntesis Cultural,10
-    Revisionismo Histórico,Síntesis Cultural,15
+    "Nacionalismo Criollo","Síntesis Cultural",15
+    "Literatura Gauchesca","Síntesis Cultural",10
+    "Revisionismo Histórico","Síntesis Cultural",15
     
-    %% Síntesis intermedias
-    Síntesis Filosófica,Laboratorio Intelectual,45
-    Síntesis Moral,Laboratorio Intelectual,50
-    Síntesis Estratégica,Laboratorio Intelectual,45
-    Síntesis Económica,Laboratorio Intelectual,45
-    Síntesis Cultural,Laboratorio Intelectual,40
+    "Síntesis Filosófica","Laboratorio Intelectual",45
+    "Síntesis Moral","Laboratorio Intelectual",50
+    "Síntesis Estratégica","Laboratorio Intelectual",45
+    "Síntesis Económica","Laboratorio Intelectual",45
+    "Síntesis Cultural","Laboratorio Intelectual",40
     
-    %% Resultado final
-    Laboratorio Intelectual,Doctrina Justicialista,225
+    "Laboratorio Intelectual","Doctrina Justicialista",225
 ```
 
 Esta expansión muestra la verdadera riqueza de la biblioteca peronista: **4,000 libros** organizados sistemáticamente, con un **método de lectura sofisticado** que distinguía entre lecturas únicas y relecturas múltiples, y una **diversidad temática extraordinaria** que abarcaba desde los presocráticos hasta la sociología contemporánea. 
