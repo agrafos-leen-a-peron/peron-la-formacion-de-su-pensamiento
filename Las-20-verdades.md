@@ -296,7 +296,7 @@ quadrantChart
     y-axis Low --> High
     
     quadrant-1 Fundacional
-    quadrant-2 Técnica
+    quadrant-2 Tecnica
     quadrant-3 Contextual
     quadrant-4 Estructural
     
