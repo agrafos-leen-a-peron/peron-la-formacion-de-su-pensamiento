@@ -300,13 +300,13 @@ quadrantChart
     quadrant-3 Contextual
     quadrant-4 Estructural
     
-    Doctrina Social Católica: [0.9, 0.9]
-    Filosofía Clásica: [0.7, 0.8]
+    Doctrina Social Catolica: [0.9, 0.9]
+    Filosofia Clasica: [0.7, 0.8]
     Intelectuales Militares: [0.6, 0.7]
     Nacionalismos Latinoamericanos: [0.5, 0.6]
-    Economía Social: [0.4, 0.7]
+    Economia Social: [0.4, 0.7]
     Nacionalismo Criollo: [0.3, 0.5]
-    Sociología Francesa: [0.2, 0.4]
+    Sociologia Francesa: [0.2, 0.4]
 ```
 
 ## Conclusiones
