@@ -383,7 +383,7 @@ block-beta
     style C fill:#2c3e50,color:#ecf0f1
     style D fill:#2c3e50,color:#ecf0f1
     style E fill:#2c3e50,color:#ecf0f1
-`
+```
 
 ## 6. Diagrama de Estados: Evolución del Peronismo
 
