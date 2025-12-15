@@ -202,7 +202,7 @@ block-beta
     end
     
     block:V1:4
-        E["1. Verdadera Democracia"] F["Cárdenas (México)<br/>'Verdadera democracia'"] G["Miguel de Andrea<br/>Democracia funcional"] H["Gobierno = Voluntad Popular"]
+        E["1. Verdadera Democracia"] F["Cárdenas (México)<br/>Verdadera democracia"] G["Miguel de Andrea<br/>Democracia funcional"] H["Gobierno = Voluntad Popular"]
     end
     
     block:V2:4
@@ -210,7 +210,7 @@ block-beta
     end
     
     block:V3:4
-        M["3. Trabajo para Movimiento"] N["Vargas (Brasil)<br/>Movimiento vs Partido"] O["RaDePa Bolivia<br/>Concepto 'Movimiento'"] P["Lealtad Organizacional"]
+        M["3. Trabajo para Movimiento"] N["Vargas (Brasil)<br/>Movimiento vs Partido"] O["RaDePa Bolivia<br/>Concepto Movimiento"] P["Lealtad Organizacional"]
     end
     
     block:V4:4
@@ -226,7 +226,7 @@ block-beta
     end
     
     block:V7:4
-        CC["7. Ni más ni menos"] DD["Cleóbulo el Líndico<br/>'Todo en su medida'"] EE["Aristóteles<br/>Término medio"] FF["Moderación Clásica"]
+        CC["7. Ni más ni menos"] DD["Cleóbulo el Líndico<br/>Todo en su medida"] EE["Aristóteles<br/>Término medio"] FF["Moderación Clásica"]
     end
     
     block:V8:4
@@ -234,7 +234,7 @@ block-beta
     end
     
     block:V9:4
-        KK["9. Política es medio"] LL["Santo Tomás<br/>Política para bien común"] MM["Von der Goltz<br/>'Política es destino'"] NN["Finalidad Trascendente"]
+        KK["9. Política es medio"] LL["Santo Tomás<br/>Política para bien común"] MM["Von der Goltz<br/>Política es destino"] NN["Finalidad Trascendente"]
     end
     
     block:V10:4
@@ -575,7 +575,7 @@ graph TD
     end
     
     subgraph "CÍRCULO DOCTRINAL: FUENTES CATÓLICAS"
-        ANDREA_D[Miguel de Andrea<br/>"El Obispo Rojo"<br/>Democracia Funcional]
+        ANDREA_D[Miguel de Andrea<br/>El Obispo Rojo<br/>Democracia Funcional]
         MARITAIN_D[Jacques Maritain<br/>Humanismo Integral<br/>Tercera Vía Original]
         BENITEZ_D[Hernán Benítez<br/>Confesor Evita<br/>Influencia Ética]
         RERUM_D[Rerum Novarum<br/>León XIII<br/>Salario Justo]
@@ -817,7 +817,7 @@ block-beta
     end
     
     block:LEON_XIII:4
-        E["León XIII<br/>Rerum Novarum §34"] F["'Cada cual tiene derecho natural<br/>a procurarse lo necesario<br/>para la vida; y al pobre<br/>no le es lícito procurárselo<br/>sino mediante el trabajo'"] G["Miguel de Andrea<br/>'El Catolicismo Social'<br/>Perón lee 1941-1943"] H["'No existe más que<br/>una sola clase'<br/>Eliminación distinciones<br/>no laborales"]
+        E["León XIII<br/>Rerum Novarum §34"] F["Cada cual tiene derecho natural<br/>a procurarse lo necesario<br/>para la vida; y al pobre<br/>no le es lícito procurárselo<br/>sino mediante el trabajo"] G["Miguel de Andrea<br/>El Catolicismo Social<br/>Perón lee 1941-1943"] H["No existe más que<br/>una sola clase<br/>Eliminación distinciones<br/>no laborales"]
     end
     
     block:MOSCONI:4
@@ -2617,7 +2617,7 @@ graph TD
     end
     
     subgraph "CÍRCULO CATÓLICO"
-        ANDREA_C["Mons. Miguel de Andrea<br/>'El Obispo Rojo'<br/>Textos biblioteca Perón<br/>Democracia funcional"]
+        ANDREA_C["Mons. Miguel de Andrea<br/>El Obispo Rojo<br/>Textos biblioteca Perón<br/>Democracia funcional"]
         BENITEZ_C["Hernán Benítez<br/>Confesor Eva Perón<br/>Consultor La Comunidad Organizada<br/>Neotomismo"]
         SEPICH_C["Juan Sepich<br/>Consultor filosófico<br/>Neotomismo argentino<br/>Congreso Mendoza 1949"]
     end
