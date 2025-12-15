@@ -1,4 +1,3 @@
-
 ```mermaid
 mindmap
   root((El Peronismo: Síntesis Ideológica y Estratégica))
@@ -17,19 +16,19 @@ mindmap
       B. Adaptación del Intervencionismo Pre-Peronista
         (Crisis del 30: Agotamiento del Laissez-faire)
         (Medidas Intervencionistas)
-          (Banco Central (Prebisch))
+          (Banco Central - Prebisch)
           (Juntas Reguladoras)
           (Fabricaciones Militares)
           (Flota Mercante del Estado)
-        (Influencia: New Deal (EE. UU.) - Pragmatismo Estatal)
+        (Influencia: New Deal EE.UU. - Pragmatismo Estatal)
         (Conclusión: Perón Capitalizó la Continuidad)
 
     II. Fundamentos Doctrinales y Sociales
       A. El Pilar Social: El Justicialismo
-        (Ascenso: Secretaría de Trabajo (1943))
-        (Base: Trabajadores Urbanos (Descamisados))
+        (Ascenso: Secretaría de Trabajo - 1943)
+        (Base: Trabajadores Urbanos - Descamisados)
         (Sindicalismo)
-          (Operación: Sindicatos Paraestatales (C.G.T.))
+          (Operación: Sindicatos Paraestatales - C.G.T.)
         (Justicia Social en la Práctica)
           (Resultado: >50% del Ingreso Nacional a Trabajadores)
           (Efecto: Combustible para la Industrialización)
@@ -50,21 +49,21 @@ mindmap
 
     III. Contexto Regional y Geopolítico
       A. La Corriente Nacional-Popular Latinoamericana
-        (Varguismo (Brasil, Estado Novo))
-          (Conexión: Modelo Operacional (Golpe + Base de Masas))
-        (Cardenismo (México))
+        (Varguismo - Brasil, Estado Novo)
+          (Conexión: Modelo Operacional - Golpe + Base de Masas)
+        (Cardenismo - México)
           (Ideología: Nacionalización del Petróleo)
-        (Bolivia (RaDePa / MNR))
+        (Bolivia - RaDePa / MNR)
           (Ideología: "Socialismo Militar")
-        (APRA (Perú))
+        (APRA - Perú)
           (Aportación: Retórica de la "Tercera Posición")
       B. Refutación del Mito Fascista
-        (Mito: Fascismo Criollo (Germani))
+        (Mito: Fascismo Criollo - Germani)
         (Evidencia Contra-Fascista)
           (Base Social: Trabajadores)
           (Estructura: Falta de Militarismo Expansivo/Racismo)
           (Acusaciones Refutadas: Antisemitismo)
-        (Causa de la Etiqueta: Propaganda (Libro Azul de Braden))
+        (Causa de la Etiqueta: Propaganda - Libro Azul de Braden)
 
     IV. El Justicialismo como Doctrina Central
       A. Los Tres Pilares Fundamentales
@@ -75,4 +74,5 @@ mindmap
         (Cuerpo Ideológico: Fusión de Corrientes)
         (Asesores Clave)
           (Legal: Arturo Sampay)
-          (Económico: José Figuerola)```
+          (Económico: José Figuerola)
+```
