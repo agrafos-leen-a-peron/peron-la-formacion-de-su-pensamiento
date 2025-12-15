@@ -292,8 +292,8 @@ block-beta
 ```mermaid
 quadrantChart
     title Influencia de Fuentes en las 20 Verdades Peronistas
-    x-axis Amplitud de Influencia --> Específica
-    y-axis Profundidad Conceptual --> Superficial
+    x-axis Low --> High
+    y-axis Low --> High
     
     quadrant-1 Fundacional
     quadrant-2 Técnica
@@ -1578,6 +1578,17 @@ block-beta
     
     block:TRABAJO:5
         U["Dignidad del Trabajo"] V["León XIII<br/>Rerum Novarum §34"] W["Miguel de Andrea<br/>'Catolicismo Social'"] X["Una sola clase:<br/>los que trabajan"] Y["VERDAD 4"]
+    end
+    
+    block:EQUILIBRIO:5
+        Z["Término Medio"] AA["Aristóteles<br/>Ética Nicomáquea"] BB["Cleóbulo el Líndico<br/>Lecturas directas"] CC["Ni más ni menos<br/>de lo que es"] DD["VERDAD 7"]
+    end
+    
+    style A fill:#2c3e50,color:#ecf0f1
+    style B fill:#2c3e50,color:#ecf0f1
+    style C fill:#2c3e50,color:#ecf0f1
+    style D fill:#2c3e50,color:#ecf0f1
+    style E fill:#2c3e50,color:#ecf0f1
     end
     
     block:MEDIDA:5
