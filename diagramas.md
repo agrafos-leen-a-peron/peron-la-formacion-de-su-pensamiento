@@ -440,62 +440,85 @@ stateDiagram-v2
     Resistencia_Empresarial --> Crisis
 ```
 
-## 7. Diagrama de Clases: Estructura Conceptual del Justicialismo
+## 7. Arquitectura Conceptual del Justicialismo: Diagrama Jerárquico
 
 ```mermaid
-classDiagram
-    class Justicialismo {
-        +String tercera_posicion
-        +String justicia_social
-        +String independencia_economica
-        +String soberania_politica
-        +organizarComunidad()
-        +conducirMasas()
-        +equilibrarClases()
-    }
+graph TD
+    subgraph "NÚCLEO DOCTRINARIO"
+        JUST[JUSTICIALISMO<br/>Síntesis Superadora]
+    end
     
-    class DoctrinalSocialCatolica {
-        +String rerum_novarum
-        +String quadragesimo_anno
-        +String tercerismo
-        +legitimarMoral()
-        +orientarSocial()
-    }
+    subgraph "PRINCIPIOS FUNDAMENTALES"
+        JS[Justicia Social<br/>Derecho Natural Divino<br/>vs Justicia Conmutativa]
+        IE[Independencia Económica<br/>Autarquía Nacional<br/>ISI + Nacionalizaciones]
+        SP[Soberanía Política<br/>Tercera Posición<br/>Ni Capitalismo ni Comunismo]
+    end
     
-    class IntelectualesMilitares {
-        +String soberania_energetica
-        +String industrializacion
-        +String defensa_nacional
-        +planificarEstrategia()
-        +desarrollarIndustria()
-    }
+    subgraph "ESTRUCTURA ORGANIZATIVA"
+        CO[La Comunidad Organizada<br/>Gobierno Concentrado<br/>Estado Descentralizado<br/>Organizaciones Libres]
+        
+        GOB[Gobierno<br/>Concentrado]
+        EST[Estado<br/>Descentralizado]
+        ORG[Organizaciones Libres<br/>del Pueblo]
+    end
     
-    class EconomiaAlemana {
-        +String proteccionismo
-        +String intervencion_estatal
-        +String autarquia
-        +dirigirEconomia()
-        +protegerIndustria()
-    }
+    subgraph "MECANISMOS DE APLICACIÓN"
+        SEC_TRAB[Secretaría Trabajo<br/>Laboratorio Social<br/>1943-1945]
+        CGT_PARA[CGT Para-estatal<br/>Sindicalismo Único<br/>Renuncia Lucha Clases]
+        CONST_49[Constitución 1949<br/>Derechos Trabajador<br/>Función Social Propiedad]
+    end
     
-    class NacionalismosCriollos {
-        +String tradicion_hispanica
-        +String mestizaje
-        +String antiimperialismo
-        +reivindicarIdentidad()
-        +resistirDependencia()
-    }
+    subgraph "INSTRUMENTOS ECONÓMICOS"
+        REDIS[Redistribución<br/>50% Ingreso Nacional<br/>a Trabajadores]
+        IAPI[IAPI<br/>Centralización<br/>Comercio Exterior]
+        BANCO[Banco Central<br/>Sin Representantes<br/>Finanzas Internacionales]
+    end
     
-    Justicialismo --|> DoctrinalSocialCatolica : hereda
-    Justicialismo --|> IntelectualesMilitares : incorpora
-    Justicialismo --|> EconomiaAlemana : adapta
-    Justicialismo --|> NacionalismosCriollos : sintetiza
+    subgraph "BASES FILOSÓFICAS"
+        DIAL[Naturaleza Dialéctica<br/>Conciliar Opuestos<br/>Armonía Contrarios]
+        PRAG[Método Pragmático<br/>Ideas de Cualquier Lado<br/>si son Ejecutables]
+        EVOL[Evolución Histórica<br/>Determinista por Técnica<br/>Época de Continentalismos]
+    end
     
-    DoctrinalSocialCatolica --> Sampay : implementa
-    IntelectualesMilitares --> Mosconi : inspira
-    IntelectualesMilitares --> Savio : desarrolla
-    EconomiaAlemana --> Bunge : transmite
-    EconomiaAlemana --> Figuerola : aplica
+    %% Conexiones principales
+    JUST --> JS
+    JUST --> IE  
+    JUST --> SP
+    
+    JS --> CO
+    IE --> CO
+    SP --> CO
+    
+    CO --> GOB
+    CO --> EST
+    CO --> ORG
+    
+    GOB --> SEC_TRAB
+    EST --> CGT_PARA
+    ORG --> CONST_49
+    
+    SEC_TRAB --> REDIS
+    CGT_PARA --> IAPI
+    CONST_49 --> BANCO
+    
+    DIAL --> JUST
+    PRAG --> JUST
+    EVOL --> JUST
+    
+    %% Estilos
+    classDef nucleo fill:#e74c3c,color:#fff,stroke:#c0392b,stroke-width:3px
+    classDef principios fill:#3498db,color:#fff,stroke:#2980b9,stroke-width:2px
+    classDef estructura fill:#2ecc71,color:#fff,stroke:#27ae60,stroke-width:2px
+    classDef mecanismos fill:#f39c12,color:#fff,stroke:#e67e22,stroke-width:2px
+    classDef instrumentos fill:#9b59b6,color:#fff,stroke:#8e44ad,stroke-width:2px
+    classDef filosoficas fill:#1abc9c,color:#fff,stroke:#16a085,stroke-width:2px
+    
+    class JUST nucleo
+    class JS,IE,SP principios
+    class CO,GOB,EST,ORG estructura
+    class SEC_TRAB,CGT_PARA,CONST_49 mecanismos
+    class REDIS,IAPI,BANCO instrumentos
+    class DIAL,PRAG,EVOL filosoficas
 ```
 
 ## 8. Diagrama de Secuencia: Proceso de Construcción Doctrinaria
