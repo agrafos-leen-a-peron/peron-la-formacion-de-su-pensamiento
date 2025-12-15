@@ -340,18 +340,50 @@ gantt
     Caída del Régimen          :milestone, 1955-09-16, 0d
 ```
 
-## 5. Diagrama de Sectores: Composición de Influencias
+## 5. Matriz de Influencias: Intensidad y Temporalidad
 
 ```mermaid
-pie title Fuentes de Influencia en la Síntesis Peronista
-    "Doctrina Social Católica" : 25
-    "Intelectuales Militares Argentinos" : 20
-    "Nacionalismos Populares Latinoamericanos" : 15
-    "Filosofía Clásica y Moderna" : 15
-    "Economía Alemana (List-Bunge)" : 10
-    "Sociología Francesa (Le Bon-Duprat)" : 8
-    "Tradición Criolla (Lugones)" : 7
-```
+block-beta
+    columns 5
+    
+    block:HEADER:5
+        A["TRADICIÓN"] B["PERÍODO CLAVE"] C["INTENSIDAD"] D["APLICACIÓN"] E["RESULTADO"]
+    end
+    
+    block:FILOSOFICA:5
+        F["Filosofía Clásica<br/>Presocráticos-Escolástica"] G["1915-1949"] H["★★★★★<br/>Fundacional"] I["La Comunidad Organizada"] J["Síntesis Dialéctica"]
+    end
+    
+    block:CATOLICA:5
+        K["Doctrina Social Católica<br/>Rerum Novarum-Sampay"] L["1930-1954"] M["★★★★★<br/>Legitimadora"] N["Constitución 1949"] O["Justicia Social"]
+    end
+    
+    block:MILITAR:5
+        P["Intelectuales Militares<br/>Mosconi-Sarobe-Savio"] Q["1920-1943"] R["★★★★★<br/>Formativa"] S["Secretaría Trabajo"] T["Soberanía Industrial"]
+    end
+    
+    block:ECONOMICA:5
+        U["Economía Alemana<br/>List-Bunge-Figuerola"] V["1930-1946"] W["★★★★☆<br/>Técnica"] X["Redistribución"] Y["Desarrollo Industrial"]
+    end
+    
+    block:LATINOAM:5
+        Z["Nacionalismos Latinoam.<br/>Vargas-Cárdenas-APRA"] AA["1940-1946"] BB["★★★★☆<br/>Contextual"] CC["Organización Sindical"] DD["Tercera Posición"]
+    end
+    
+    block:SOCIOLOGICA:5
+        EE["Sociología Francesa<br/>Le Bon-Ward-Duprat"] FF["1935-1947"] GG["★★★☆☆<br/>Instrumental"] HH["Psicología Masas"] II["Conducción Popular"]
+    end
+    
+    block:CRIOLLA:5
+        JJ["Tradición Criolla<br/>Lugones-Scalabrini"] KK["1918-1955"] LL["★★★☆☆<br/>Identitaria"] MM["Antiimperialismo"] NN["Nacionalismo Popular"]
+    end
+    
+    style A fill:#2c3e50,color:#ecf0f1
+    style B fill:#2c3e50,color:#ecf0f1
+    style C fill:#2c3e50,color:#ecf0f1
+    style D fill:#2c3e50,color:#ecf0f1
+    style E fill:#2c3e50,color:#ecf0f1
+`
 
 ## 6. Diagrama de Estados: Evolución del Peronismo
 
