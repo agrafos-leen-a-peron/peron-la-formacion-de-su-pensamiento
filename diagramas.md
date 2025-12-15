@@ -583,3 +583,256 @@ Estos diagramas especializados revelan la extraordinaria complejidad y sofistica
 - **Momentos críticos** de decisión y síntesis
 
 La utilización de estos diversos tipos de diagramas demuestra que el peronismo no fue una improvisación populista, sino el resultado de una **síntesis intelectual sofisticada** que combinó tradiciones filosóficas, doctrinarias, económicas y políticas en una **amalgama eficaz** adaptada a las condiciones argentinas y latinoamericanas del siglo XX.
+
+## 13. Biblioteca Sistemática de Perón: Diagrama de Árbol Jerárquico
+
+```mermaid
+graph TD
+    subgraph "BIBLIOTECA PERÓN (~4,000 LIBROS)"
+        ROOT[Biblioteca Personal de Perón]
+    end
+    
+    ROOT --> CLASICOS[Clásicos Griegos y Latinos]
+    ROOT --> ESPAÑOLES[Clásicos Españoles]
+    ROOT --> POLITICO[Pensamiento Político e Histórico]
+    ROOT --> IGLESIA[Grandes Plumas de la Iglesia]
+    ROOT --> ARGENTINOS[Compatriotas y Coetáneos]
+    ROOT --> MILITAR[Textos Militares]
+    ROOT --> CIENCIAS[Ciencias Diversas]
+    
+    %% Clásicos Griegos y Latinos
+    CLASICOS --> PLATON_BIB["Platón<br/>República, Leyes"]
+    CLASICOS --> ARISTOTELES_BIB["Aristóteles<br/>Política, Ética"]
+    CLASICOS --> ARISTOFANES["Aristófanes<br/>Comedias"]
+    CLASICOS --> ESQUILO["Esquilo<br/>Tragedias"]
+    CLASICOS --> EURIPIDES["Eurípides<br/>Tragedias"]
+    CLASICOS --> DIOGENES["Diógenes Laercio<br/>Vidas Filósofos"]
+    CLASICOS --> PLAUTO["Plauto<br/>Comedias"]
+    CLASICOS --> PLUTARCO["Plutarco<br/>Vidas Paralelas"]
+    CLASICOS --> CICERON["Cicerón<br/>Retórica, Política"]
+    CLASICOS --> SENECA["Séneca<br/>Filosofía Moral"]
+    
+    %% Clásicos Españoles
+    ESPAÑOLES --> LUIS_GRANADA["Luis de Granada<br/>Mística"]
+    ESPAÑOLES --> LOPE_VEGA["Lope de Vega<br/>Teatro"]
+    ESPAÑOLES --> CERVANTES["Cervantes<br/>Don Quijote"]
+    ESPAÑOLES --> JORGE_MANRIQUE["Jorge Manrique<br/>Coplas"]
+    ESPAÑOLES --> SANTILLANA["Marqués de Santillana<br/>Poesía"]
+    
+    %% Pensamiento Político e Histórico
+    POLITICO --> MAQUIAVELO["Maquiavelo<br/>El Príncipe"]
+    POLITICO --> MAZZINI["Mazzini<br/>Nacionalismo"]
+    POLITICO --> MICHELET["Michelet<br/>Historia Francia"]
+    POLITICO --> MONTAIGNE["Montaigne<br/>Ensayos"]
+    POLITICO --> ROUSSEAU["Rousseau<br/>Contrato Social"]
+    POLITICO --> KANT_BIB["Kant<br/>Filosofía Crítica"]
+    
+    %% Grandes Plumas Iglesia
+    IGLESIA --> SAN_AGUSTIN["San Agustín<br/>Ciudad de Dios"]
+    IGLESIA --> SANTO_TOMAS["Santo Tomás<br/>Suma Teológica"]
+    IGLESIA --> SAN_BERNARDO["San Bernardo<br/>Mística"]
+    IGLESIA --> SAN_BUENAVENTURA["San Buenaventura<br/>Teología"]
+    IGLESIA --> SANTA_TERESA["Santa Teresa<br/>Vida, Moradas"]
+    
+    %% Compatriotas y Coetáneos
+    ARGENTINOS --> ANDREA_BIB["Monseñor de Andrea<br/>'El Catolicismo Social'<br/>'Justicia Social'"]
+    ARGENTINOS --> BUSANICHE["José Luis Busaniche<br/>Historia Argentina"]
+    ARGENTINOS --> SCALABRINI_BIB["Raúl Scalabrini Ortiz<br/>'El Hombre que está Solo'"]
+    ARGENTINOS --> COSSIO["Carlos Cossio<br/>Filosofía Jurídica"]
+    ARGENTINOS --> FIGUEROLA_BIB["José Figuerola<br/>'Colaboración Social'"]
+    ARGENTINOS --> FURLONG["Guillermo Furlong<br/>Historia Jesuítica"]
+    ARGENTINOS --> GARCIA_MELLID["Atilio García Mellid<br/>Estudios Sociales"]
+    ARGENTINOS --> OYHANARTE["Horacio Oyhanarte<br/>Derecho"]
+    ARGENTINOS --> SAMPAY_BIB["Arturo Sampay<br/>'Crisis Derecho Liberal'"]
+    ARGENTINOS --> PALACIO["Ernesto Palacio<br/>Nacionalismo"]
+    
+    %% Textos Militares
+    MILITAR --> GOLTZ_BIB["Von der Goltz<br/>'La Nación en Armas'<br/>'Dirección de la Guerra'"]
+    MILITAR --> CLAUSEWITZ_BIB["Clausewitz<br/>'De la Guerra'"]
+    MILITAR --> JOMINI_BIB["Jomini<br/>Arte de la Guerra"]
+    MILITAR --> SCHLIEFEN_BIB["Schliefen<br/>Estrategia"]
+    MILITAR --> DOUHET_BIB["Giulio Douhet<br/>'El Dominio del Aire'"]
+    MILITAR --> MOSCONI_BIB["Enrique Mosconi<br/>Escritos Petroleros"]
+    MILITAR --> SAROBE_BIB["José María Sarobe<br/>'Memorias Revolución 1930'"]
+    
+    %% Ciencias Diversas
+    CIENCIAS --> ANTROPOLOGIA["Antropología<br/>Estudios Raciales<br/>Mestizaje Americano"]
+    CIENCIAS --> BIOLOGIA["Biología<br/>Evolución<br/>Determinismo"]
+    CIENCIAS --> FILOSOFIA_CIEN["Filosofía<br/>Bergson, Ortega<br/>Marañón"]
+    CIENCIAS --> SOCIOLOGIA_CIEN["Sociología<br/>Le Bon, Ward<br/>Duprat"]
+    CIENCIAS --> RELIGION_CIEN["Religión<br/>Enciclicas Papales<br/>Teología Social"]
+    CIENCIAS --> ARQUEOLOGIA["Arqueología<br/>Civilizaciones<br/>Americanas"]
+    CIENCIAS --> PSICOLOGIA_CIEN["Psicología<br/>Psicología Social<br/>Masas"]
+    
+    %% Estilos específicos
+    classDef biblioteca fill:#2c3e50,color:#ecf0f1,stroke:#34495e,stroke-width:3px
+    classDef categoria fill:#3498db,color:#fff,stroke:#2980b9,stroke-width:2px
+    classDef autor fill:#e74c3c,color:#fff,stroke:#c0392b,stroke-width:1px
+    classDef obra fill:#27ae60,color:#fff,stroke:#229954,stroke-width:1px
+    
+    class ROOT biblioteca
+    class CLASICOS,ESPAÑOLES,POLITICO,IGLESIA,ARGENTINOS,MILITAR,CIENCIAS categoria
+    class PLATON_BIB,ARISTOTELES_BIB,MAQUIAVELO,SAN_AGUSTIN,ANDREA_BIB,GOLTZ_BIB autor
+```
+
+## 14. Método de Lectura Peronista: Diagrama de Proceso
+
+```mermaid
+flowchart LR
+    subgraph "MÉTODO PERÓN"
+        A[Libro Nuevo] --> B{¿Tipo de Lectura?}
+        
+        B -->|Una sola vez| C[Lectura Única]
+        B -->|Múltiples relecturas| D[Lectura Sistemática]
+        
+        C --> E[Extracción Ideas<br/>Funcionales]
+        D --> F[Análisis Profundo<br/>Múltiples Perspectivas]
+        
+        E --> G[Archivo Mental]
+        F --> G
+        
+        G --> H{¿Aplicable al<br/>Proyecto Político?}
+        
+        H -->|Sí| I[Integración<br/>Síntesis Doctrinaria]
+        H -->|No| J[Descarte<br/>Temporal]
+        
+        I --> K[Aplicación<br/>Práctica]
+        J --> L[Archivo<br/>Futuro Uso]
+    end
+    
+    subgraph "EJEMPLOS RELECTURAS MÚLTIPLES"
+        M["Von der Goltz<br/>'La Nación en Armas'<br/>Relecturas constantes"]
+        N["Martín Fierro<br/>Texto memorizado<br/>completo"]
+        O["Enciclicas Papales<br/>Rerum Novarum<br/>Quadragesimo Anno"]
+        P["Alejandro Bunge<br/>'Una Nueva Argentina'<br/>Lectura de cabecera"]
+    end
+    
+    D -.-> M
+    D -.-> N
+    D -.-> O
+    D -.-> P
+    
+    subgraph "CRITERIOS SELECCIÓN"
+        Q["¿Ejecutable en<br/>realidad concreta?"]
+        R["¿Útil al proyecto<br/>político?"]
+        S["¿Compatible con<br/>síntesis existente?"]
+        T["¿Adaptable a<br/>condiciones argentinas?"]
+    end
+    
+    H -.-> Q
+    H -.-> R
+    H -.-> S
+    H -.-> T
+```
+
+## 15. Diversidad Temática: Mapa de Calor de Intereses
+
+```mermaid
+block-beta
+    columns 4
+    
+    block:FILOSOFIA:2
+        columns 2
+        A["Filosofía Clásica<br/>★★★★★"]
+        B["Filosofía Moderna<br/>★★★★☆"]
+        C["Escolástica<br/>★★★★★"]
+        D["Filosofía Política<br/>★★★★★"]
+    end
+    
+    block:RELIGION:2
+        columns 2
+        E["Doctrina Social<br/>★★★★★"]
+        F["Mística<br/>★★★☆☆"]
+        G["Teología<br/>★★★★☆"]
+        H["Enciclicas<br/>★★★★★"]
+    end
+    
+    block:MILITAR:2
+        columns 2
+        I["Historia Militar<br/>★★★★★"]
+        J["Estrategia<br/>★★★★★"]
+        K["Geopolítica<br/>★★★★★"]
+        L["Táctica<br/>★★★★☆"]
+    end
+    
+    block:CIENCIAS:2
+        columns 2
+        M["Sociología<br/>★★★★★"]
+        N["Psicología<br/>★★★★☆"]
+        O["Antropología<br/>★★★☆☆"]
+        P["Biología<br/>★★★☆☆"]
+    end
+    
+    block:ECONOMIA:2
+        columns 2
+        Q["Economía Nacional<br/>★★★★★"]
+        R["Proteccionismo<br/>★★★★★"]
+        S["Cooperativismo<br/>★★★★☆"]
+        T["Finanzas<br/>★★★☆☆"]
+    end
+    
+    block:HISTORIA:2
+        columns 2
+        U["Historia Argentina<br/>★★★★★"]
+        V["Historia Universal<br/>★★★★☆"]
+        W["Revisionismo<br/>★★★★★"]
+        X["Biografías<br/>★★★★☆"]
+    end
+    
+    block:LITERATURA:2
+        columns 2
+        Y["Clásicos Españoles<br/>★★★★☆"]
+        Z["Literatura Argentina<br/>★★★★★"]
+        AA["Poesía<br/>★★★☆☆"]
+        BB["Teatro<br/>★★★☆☆"]
+    end
+    
+    block:POLITICA:2
+        columns 2
+        CC["Teoría Política<br/>★★★★★"]
+        DD["Nacionalismo<br/>★★★★★"]
+        EE["Democracia<br/>★★★★☆"]
+        FF["Autoritarismo<br/>★★★☆☆"]
+    end
+```
+
+## 16. Biblioteca como Laboratorio Intelectual: Diagrama de Flujo de Ideas
+
+```mermaid
+sankey-beta
+    
+    %% Fuentes de entrada
+    Clásicos Griegos,Síntesis Filosófica,15
+    Escolástica,Síntesis Filosófica,20
+    Filosofía Moderna,Síntesis Filosófica,10
+    
+    Doctrina Social Católica,Síntesis Moral,25
+    Mística Española,Síntesis Moral,10
+    Teología Tomista,Síntesis Moral,15
+    
+    Historia Militar,Síntesis Estratégica,20
+    Geopolítica Alemana,Síntesis Estratégica,15
+    Táctica Moderna,Síntesis Estratégica,10
+    
+    Economía Alemana,Síntesis Económica,20
+    Sociología Francesa,Síntesis Económica,15
+    Cooperativismo,Síntesis Económica,10
+    
+    Nacionalismo Criollo,Síntesis Cultural,15
+    Literatura Gauchesca,Síntesis Cultural,10
+    Revisionismo Histórico,Síntesis Cultural,15
+    
+    %% Síntesis intermedias
+    Síntesis Filosófica,Laboratorio Intelectual,45
+    Síntesis Moral,Laboratorio Intelectual,50
+    Síntesis Estratégica,Laboratorio Intelectual,45
+    Síntesis Económica,Laboratorio Intelectual,45
+    Síntesis Cultural,Laboratorio Intelectual,40
+    
+    %% Resultado final
+    Laboratorio Intelectual,Doctrina Justicialista,225
+```
+
+Esta expansión muestra la verdadera riqueza de la biblioteca peronista: **4,000 libros** organizados sistemáticamente, con un **método de lectura sofisticado** que distinguía entre lecturas únicas y relecturas múltiples, y una **diversidad temática extraordinaria** que abarcaba desde los presocráticos hasta la sociología contemporánea. 
+
+La biblioteca no era una colección diletante sino un **laboratorio intelectual** donde Perón extraía "ideas funcionales" de cualquier tradición, siempre con el criterio pragmático de su aplicabilidad al proyecto político argentino.
