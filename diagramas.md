@@ -794,27 +794,72 @@ graph LR
     class Lu,Sc,U,I nacionalistas
 ```
 
-## 12. Diagrama Sankey: Flujo de Ideas hacia la Síntesis
+## 12. Flujo de Ideas hacia la Síntesis: Diagrama de Convergencia
 
 ```mermaid
-sankey-beta
+flowchart LR
+    subgraph "FUENTES PRIMARIAS (1895-1930)"
+        FC[Filosofía Clásica<br/>Presocráticos-Escolástica]
+        DC[Doctrina Católica<br/>Rerum Novarum]
+        IM[Intelectuales Militares<br/>Mosconi-Sarobe]
+        EA[Economía Alemana<br/>List-Bunge]
+        CR[Criollismo<br/>Lugones-Fierro]
+    end
     
-    "Filosofía Clásica","Síntesis Temprana",25
-    "Doctrina Católica","Síntesis Temprana",30
-    "Intelectuales Militares","Síntesis Temprana",20
-    "Economía Alemana","Síntesis Temprana",15
-    "Criollismo","Síntesis Temprana",10
+    subgraph "SÍNTESIS TEMPRANA (1930-1943)"
+        ST[Síntesis Intelectual<br/>Perón Formativo]
+    end
     
-    "Síntesis Temprana","Laboratorio Social",60
-    "Nacionalismos Latinoamericanos","Laboratorio Social",25
-    "Sociología Francesa","Laboratorio Social",15
+    subgraph "INFLUENCIAS CONTEXTUALES (1940-1946)"
+        NL[Nacionalismos<br/>Latinoamericanos<br/>Vargas-Cárdenas]
+        SF[Sociología Francesa<br/>Le Bon-Ward]
+        RE[Resistencias Externas<br/>Braden-Oposición]
+    end
     
-    "Laboratorio Social","Doctrina Peronista",70
-    "Resistencias Externas","Doctrina Peronista",20
-    "Adaptaciones Pragmáticas","Doctrina Peronista",10
+    subgraph "LABORATORIO SOCIAL (1943-1946)"
+        LS[Secretaría Trabajo<br/>Figuerola-CGT<br/>17 Octubre]
+    end
     
-    "Doctrina Peronista","Aplicación Gubernamental",80
-    "Contradicciones Internas","Aplicación Gubernamental",20
+    subgraph "DOCTRINA PERONISTA (1947-1949)"
+        DP[Justicialismo<br/>La Comunidad Organizada<br/>Constitución 1949]
+    end
+    
+    subgraph "APLICACIÓN GUBERNAMENTAL (1946-1955)"
+        AG[Gobierno Peronista<br/>Redistribución<br/>Industrialización]
+        CI[Contradicciones<br/>Resistencia Empresarial<br/>Ruptura Iglesia]
+    end
+    
+    %% Flujos principales
+    FC --> ST
+    DC --> ST
+    IM --> ST
+    EA --> ST
+    CR --> ST
+    
+    ST --> LS
+    NL --> LS
+    SF --> LS
+    
+    LS --> DP
+    RE --> DP
+    
+    DP --> AG
+    CI --> AG
+    
+    %% Estilos
+    classDef fuentes fill:#e8f4fd,stroke:#1565c0,stroke-width:2px
+    classDef sintesis fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef contexto fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef laboratorio fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    classDef doctrina fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef aplicacion fill:#f1f8e9,stroke:#558b2f,stroke-width:2px
+    
+    class FC,DC,IM,EA,CR fuentes
+    class ST sintesis
+    class NL,SF,RE contexto
+    class LS laboratorio
+    class DP doctrina
+    class AG,CI aplicacion
 ```
 
 ## Conclusión: La Sofisticación de la Síntesis Peronista
