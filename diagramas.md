@@ -379,52 +379,95 @@ journey
         Caída del régimen: 1: Perón
 ```
 
-## 10. Mapa de Calor: Intensidad de Influencias por Período
+## 10. Convergencia de Tradiciones Intelectuales: Diagrama de Flujo Temporal
 
 ```mermaid
-gitgraph
-    commit id: "Formación Criolla (1895-1910)"
-    branch filosofia_clasica
-    checkout filosofia_clasica
-    commit id: "Platón, Aristóteles"
-    commit id: "Escolástica"
+flowchart TD
+    subgraph "1895-1920: FORMACIÓN TEMPRANA"
+        A[Formación Criolla<br/>Pampa-Patagonia]
+        B[Filosofía Clásica<br/>Platón, Aristóteles]
+        C[Escolástica<br/>Santo Tomás]
+        D[Colegio Militar<br/>Disciplina, Orden]
+    end
     
-    checkout main
-    branch intelectuales_militares
-    checkout intelectuales_militares
-    commit id: "Mosconi (1920)"
-    commit id: "Sarobe (1925)"
-    commit id: "Savio (1930)"
+    subgraph "1920-1930: PRIMERA SÍNTESIS"
+        E[Intelectuales Militares<br/>Mosconi, Sarobe]
+        F[Revisionismo Histórico<br/>Rosas, Tradición]
+        G[Lecturas Sistemáticas<br/>Von der Goltz]
+    end
     
-    checkout main
-    merge filosofia_clasica
-    commit id: "Síntesis Temprana (1920)"
+    subgraph "1930-1940: MADURACIÓN INTELECTUAL"
+        H[Doctrina Social Católica<br/>Rerum Novarum, Andrea]
+        I[Economía Alemana<br/>List, Bunge]
+        J[Filosofía Moderna<br/>Maritain, Bergson]
+        K[Geopolítica<br/>Haushofer, Ratzel]
+    end
     
-    branch doctrina_catolica
-    checkout doctrina_catolica
-    commit id: "Rerum Novarum"
-    commit id: "Miguel de Andrea"
-    commit id: "Maritain (1936)"
+    subgraph "1940-1943: SÍNTESIS AVANZADA"
+        L[Nacionalismos Latinoamericanos<br/>Vargas, Cárdenas, APRA]
+        M[Sociología Aplicada<br/>Ward, Duprat]
+        N[Crisis Liberal<br/>Sampay, Respuestas]
+    end
     
-    checkout main
-    branch economia_alemana
-    checkout economia_alemana
-    commit id: "Von der Goltz"
-    commit id: "Alejandro Bunge"
-    commit id: "José Figuerola"
+    subgraph "1943-1946: LABORATORIO SOCIAL"
+        O[Secretaría Trabajo<br/>Figuerola, Organización]
+        P[Síntesis Práctica<br/>CGT Para-estatal]
+        Q[Base Social<br/>17 Octubre 1945]
+    end
     
-    checkout main
-    merge intelectuales_militares
-    commit id: "Formación Militar (1930)"
+    subgraph "1946-1955: DOCTRINA APLICADA"
+        R[Doctrina Peronista<br/>Justicialismo]
+        S[La Comunidad Organizada<br/>Síntesis Filosófica]
+        T[Constitución 1949<br/>Sampay, Aplicación Legal]
+    end
     
-    merge doctrina_catolica
-    commit id: "Síntesis Católica (1940)"
+    %% Flujos temporales
+    A --> E
+    B --> E
+    C --> E
+    D --> E
     
-    merge economia_alemana
-    commit id: "Laboratorio Social (1943)"
+    E --> H
+    F --> H
+    G --> H
     
-    commit id: "Doctrina Peronista (1947)"
-    commit id: "La Comunidad Organizada (1949)"
+    H --> L
+    I --> L
+    J --> L
+    K --> L
+    
+    L --> O
+    M --> O
+    N --> O
+    
+    O --> R
+    P --> R
+    Q --> R
+    
+    R --> S
+    S --> T
+    
+    %% Conexiones cruzadas
+    B -.->|influencia continua| J
+    C -.->|base tomista| H
+    E -.->|mentor directo| O
+    I -.->|implementación| O
+    H -.->|legitimidad| P
+    
+    %% Estilos
+    classDef temprana fill:#e8f4fd,stroke:#1e88e5,stroke-width:2px
+    classDef sintesis1 fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px
+    classDef maduracion fill:#e8f5e8,stroke:#43a047,stroke-width:2px
+    classDef sintesis2 fill:#fff3e0,stroke:#fb8c00,stroke-width:2px
+    classDef laboratorio fill:#ffebee,stroke:#e53935,stroke-width:2px
+    classDef aplicacion fill:#f1f8e9,stroke:#689f38,stroke-width:2px
+    
+    class A,B,C,D temprana
+    class E,F,G sintesis1
+    class H,I,J,K maduracion
+    class L,M,N sintesis2
+    class O,P,Q laboratorio
+    class R,S,T aplicacion
 ```
 
 ## 11. Diagrama de Red: Conexiones Intelectuales Complejas
